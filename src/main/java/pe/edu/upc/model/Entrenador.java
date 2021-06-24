@@ -15,7 +15,7 @@ import javax.persistence.Table;
 public class Entrenador implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-
+//sfdsdf
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idEntrenador;
