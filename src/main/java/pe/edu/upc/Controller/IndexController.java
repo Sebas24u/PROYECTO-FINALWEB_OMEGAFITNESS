@@ -13,22 +13,16 @@ import java.text.ParseException;
 import pe.edu.upc.model.Entrenador;
 import pe.edu.upc.service.IEntrenadorService;
 
-/*@Controller
-@RequestMapping("/entrenador")
+@Controller
+
 public class IndexController {
 
 	@Autowired
 	private IEntrenadorService rService;
 	
 	
-	@GetMapping("/listar")	
-	public String index(Model model) {
-		model.addAttribute("entrenador", new Entrenador());
-		model.addAttribute("listaEntrenadores", rService.listar());
+
 	
-		return "entrenador/listEntrenador";
-	}
-	/*
 	@GetMapping("/index")	
 	public String ListaEntrenadores() {
 		return "entrenador/entrenador";
@@ -41,4 +35,3 @@ public class IndexController {
 	
 	
 }
-*/
